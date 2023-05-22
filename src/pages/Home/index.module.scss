@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 40px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 38px 0;
+}

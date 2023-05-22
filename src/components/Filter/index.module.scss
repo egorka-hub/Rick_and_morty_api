@@ -1,0 +1,29 @@
+h3 {
+  margin-bottom: 12px;
+}
+
+.block {
+  display: flex;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  margin-right: 24px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.search {
+
+  input {
+    padding: 10px;
+    width: 320px;
+    height: 38px;
+  }
+}
+
+
